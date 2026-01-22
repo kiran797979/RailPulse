@@ -8,7 +8,7 @@ import { MockSocketProvider } from './components/MockSocket.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <MockSocketProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/RailPulse">
         <App />
       </BrowserRouter>
     </MockSocketProvider>
