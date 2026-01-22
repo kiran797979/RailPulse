@@ -1,0 +1,46 @@
+[
+    {
+        "persona": "OEM Dashboard",
+        "description": "Full access to asset health telemetry and maintenance predictions for manufacturers.",
+        "pricing": "₹10L / year",
+        "features": [
+            "Real-time health monitoring",
+            "Failure prediction",
+            "Maintenance scheduling",
+            "Historical analysis"
+        ]
+    },
+    {
+        "persona": "Insurance API",
+        "description": "Risk assessment data based on real-time asset safety and health metrics.",
+        "pricing": "₹100 / asset / year",
+        "features": [
+            "Safety compliance logs",
+            "Condition-based monitoring",
+            "Risk scoring",
+            "Accident telemetry"
+        ]
+    },
+    {
+        "persona": "Logistics Insights",
+        "description": "Asset location and efficiency data for supply chain optimization.",
+        "pricing": "₹5L / year",
+        "features": [
+            "GPS tracking",
+            "Arrival predictions",
+            "Throughput analysis",
+            "Delay alerts"
+        ]
+    },
+    {
+        "persona": "Research Data Access",
+        "description": "Anonymized historical data for railway engineering and urban planning.",
+        "pricing": "₹2L / batch",
+        "features": [
+            "Bulk dataset export",
+            "Anonymized telemetry",
+            "Multi-year historicals",
+            "Impact reports"
+        ]
+    }
+]

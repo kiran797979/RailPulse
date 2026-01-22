@@ -1,0 +1,3572 @@
+[
+  {
+    "id": "L-001",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2018-05-17",
+    "health": 86,
+    "lastSeen": "2026-01-22T14:41:00.088Z",
+    "gps": {
+      "lat": 15.191028536026586,
+      "lng": 92.86138112355502
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6516"
+    }
+  },
+  {
+    "id": "L-002",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WDG4G",
+    "installDate": "2017-01-14",
+    "health": 96,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 32.17092561099358,
+      "lng": 70.47777110628876
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1722"
+    }
+  },
+  {
+    "id": "S-003",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S2",
+    "installDate": "2017-02-28",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 17.364725862030248,
+      "lng": 91.84060654724136
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9723"
+    }
+  },
+  {
+    "id": "S-004",
+    "type": "signal",
+    "zone": "Central",
+    "model": "LED-S1",
+    "installDate": "2021-12-07",
+    "health": 76,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 22.275103844022258,
+      "lng": 84.42480129845065
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2395"
+    }
+  },
+  {
+    "id": "S-005",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2022-07-02",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 26.991841830885427,
+      "lng": 69.40980726070435
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8104"
+    }
+  },
+  {
+    "id": "L-006",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAP7",
+    "installDate": "2022-12-06",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 26.31904400941832,
+      "lng": 84.24416281481884
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7558"
+    }
+  },
+  {
+    "id": "B-007",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Concrete-Arch",
+    "installDate": "2018-02-01",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 33.69982949523649,
+      "lng": 73.09556033321248
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6322"
+    }
+  },
+  {
+    "id": "L-008",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2018-09-10",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 13.278157685403777,
+      "lng": 85.10360771745616
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8666"
+    }
+  },
+  {
+    "id": "B-009",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2017-09-26",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 36.44243658977262,
+      "lng": 85.79700930027525
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4491"
+    }
+  },
+  {
+    "id": "L-010",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2018-01-26",
+    "health": 76,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 9.343315672119953,
+      "lng": 79.9398371772717
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7284"
+    }
+  },
+  {
+    "id": "L-011",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2016-08-05",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 22.50690124358553,
+      "lng": 81.46687515145916
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5507"
+    }
+  },
+  {
+    "id": "L-012",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Auto-Barrier",
+    "installDate": "2022-10-08",
+    "health": 74,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 21.337600745672418,
+      "lng": 75.65511463877957
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2300"
+    }
+  },
+  {
+    "id": "S-013",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S2",
+    "installDate": "2022-04-05",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 13.936497009826633,
+      "lng": 77.74115414146392
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7993"
+    }
+  },
+  {
+    "id": "L-014",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WAG9",
+    "installDate": "2015-08-04",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 16.892156935231768,
+      "lng": 75.0168491211026
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7122"
+    }
+  },
+  {
+    "id": "B-015",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Concrete-Arch",
+    "installDate": "2021-12-11",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 13.116519289369911,
+      "lng": 79.91686863455058
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9208"
+    }
+  },
+  {
+    "id": "S-016",
+    "type": "signal",
+    "zone": "Central",
+    "model": "LED-S1",
+    "installDate": "2017-05-01",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 31.54777992101578,
+      "lng": 72.3806459333955
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4483"
+    }
+  },
+  {
+    "id": "L-017",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Auto-Barrier",
+    "installDate": "2023-03-25",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 22.035713917750343,
+      "lng": 80.70587027864353
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7891"
+    }
+  },
+  {
+    "id": "L-018",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP5",
+    "installDate": "2017-12-26",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 13.345489906922225,
+      "lng": 79.37473725424442
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9382"
+    }
+  },
+  {
+    "id": "S-019",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S2",
+    "installDate": "2020-05-23",
+    "health": 84,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 16.730711397771422,
+      "lng": 73.46027655490887
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5621"
+    }
+  },
+  {
+    "id": "S-020",
+    "type": "signal",
+    "zone": "Western",
+    "model": "MECH-S1",
+    "installDate": "2016-04-04",
+    "health": 84,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 12.089283810083185,
+      "lng": 85.0093282979051
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5030"
+    }
+  },
+  {
+    "id": "B-021",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Masonry",
+    "installDate": "2021-07-22",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 29.73872904813834,
+      "lng": 87.06449328355538
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7573"
+    }
+  },
+  {
+    "id": "L-022",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2016-04-03",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 33.634931967388056,
+      "lng": 72.87866737250036
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3239"
+    }
+  },
+  {
+    "id": "L-023",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WAP7",
+    "installDate": "2018-04-30",
+    "health": 84,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 32.58918182833368,
+      "lng": 89.52999257870304
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6571"
+    }
+  },
+  {
+    "id": "B-024",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2015-12-26",
+    "health": 86,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 23.774363347647157,
+      "lng": 90.24632310718201
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9528"
+    }
+  },
+  {
+    "id": "S-025",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S2",
+    "installDate": "2017-02-26",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 16.774348060778024,
+      "lng": 78.00457989858685
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1836"
+    }
+  },
+  {
+    "id": "L-026",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2018-11-21",
+    "health": 75,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 25.724550665919516,
+      "lng": 78.199124424183
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6179"
+    }
+  },
+  {
+    "id": "L-027",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAP7",
+    "installDate": "2016-07-31",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 20.974080772654133,
+      "lng": 86.1608220550008
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5808"
+    }
+  },
+  {
+    "id": "L-028",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2019-12-11",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 10.550215126826872,
+      "lng": 83.09546160687248
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1614"
+    }
+  },
+  {
+    "id": "B-029",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Steel-Truss",
+    "installDate": "2015-01-20",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.089Z",
+    "gps": {
+      "lat": 30.168520203006693,
+      "lng": 95.7267135996106
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3618"
+    }
+  },
+  {
+    "id": "L-030",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2015-08-05",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 28.59590008147596,
+      "lng": 73.170752198951
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9040"
+    }
+  },
+  {
+    "id": "L-031",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2021-01-23",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 28.44897495585836,
+      "lng": 74.73262866660527
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2601"
+    }
+  },
+  {
+    "id": "L-032",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2018-09-09",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 27.840774187776454,
+      "lng": 76.63953188962375
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9462"
+    }
+  },
+  {
+    "id": "S-033",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S1",
+    "installDate": "2017-06-26",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 26.362360278779512,
+      "lng": 87.96348867526727
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8296"
+    }
+  },
+  {
+    "id": "L-034",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2019-12-03",
+    "health": 86,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 30.327131613236,
+      "lng": 85.08817687075194
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5849"
+    }
+  },
+  {
+    "id": "B-035",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Masonry",
+    "installDate": "2020-01-05",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 14.554658302604427,
+      "lng": 95.63880768299971
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6666"
+    }
+  },
+  {
+    "id": "L-036",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP7",
+    "installDate": "2017-08-14",
+    "health": 86,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 32.32230100245014,
+      "lng": 74.03370525210082
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3285"
+    }
+  },
+  {
+    "id": "L-037",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2021-04-05",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 23.153151265758176,
+      "lng": 81.30083052220733
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8281"
+    }
+  },
+  {
+    "id": "B-038",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Steel-Truss",
+    "installDate": "2022-07-24",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 29.700101877831763,
+      "lng": 86.61333634082874
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3541"
+    }
+  },
+  {
+    "id": "L-039",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Auto-Barrier",
+    "installDate": "2017-03-16",
+    "health": 91,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 26.814788093372634,
+      "lng": 85.56649130385993
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3760"
+    }
+  },
+  {
+    "id": "B-040",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2023-08-23",
+    "health": 90,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 12.272260948223956,
+      "lng": 83.78459419101436
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1720"
+    }
+  },
+  {
+    "id": "S-041",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S2",
+    "installDate": "2022-10-06",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 14.79157353670804,
+      "lng": 91.5963055869113
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8996"
+    }
+  },
+  {
+    "id": "L-042",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2021-11-01",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 12.57665095204021,
+      "lng": 85.27732885900014
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2610"
+    }
+  },
+  {
+    "id": "L-043",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Manual-Gate",
+    "installDate": "2017-05-26",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 13.341883144140779,
+      "lng": 83.36101486939071
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6519"
+    }
+  },
+  {
+    "id": "S-044",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S1",
+    "installDate": "2015-04-15",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 33.69322932251036,
+      "lng": 71.06158845800772
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4511"
+    }
+  },
+  {
+    "id": "S-045",
+    "type": "signal",
+    "zone": "Central",
+    "model": "MECH-S1",
+    "installDate": "2020-03-16",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 22.78647264366029,
+      "lng": 94.69876194059785
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3296"
+    }
+  },
+  {
+    "id": "L-046",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAP5",
+    "installDate": "2015-09-16",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 25.71314311571752,
+      "lng": 79.70235424358681
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5762"
+    }
+  },
+  {
+    "id": "S-047",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2021-06-07",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.114316296159053,
+      "lng": 91.29780763339511
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8270"
+    }
+  },
+  {
+    "id": "B-048",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Steel-Truss",
+    "installDate": "2017-11-07",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 8.500880986320768,
+      "lng": 79.98200907983187
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7570"
+    }
+  },
+  {
+    "id": "L-049",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2016-05-06",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 14.495771086256207,
+      "lng": 84.74760668224161
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2099"
+    }
+  },
+  {
+    "id": "B-050",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Steel-Truss",
+    "installDate": "2016-04-06",
+    "health": 96,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 21.238445058668464,
+      "lng": 77.2646039779872
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6155"
+    }
+  },
+  {
+    "id": "L-051",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAG9",
+    "installDate": "2018-06-26",
+    "health": 96,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 24.119271879586933,
+      "lng": 85.25343958382095
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5510"
+    }
+  },
+  {
+    "id": "B-052",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2022-07-07",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 22.096055926675184,
+      "lng": 76.53347660870833
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3547"
+    }
+  },
+  {
+    "id": "B-053",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Concrete-Arch",
+    "installDate": "2022-06-03",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 34.78417601605178,
+      "lng": 72.16733363411316
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4325"
+    }
+  },
+  {
+    "id": "S-054",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2021-05-19",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 30.17737211980318,
+      "lng": 78.58856455356666
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7659"
+    }
+  },
+  {
+    "id": "L-055",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP7",
+    "installDate": "2016-06-22",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 30.766064701788288,
+      "lng": 74.38274024804564
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6721"
+    }
+  },
+  {
+    "id": "L-056",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WDG4G",
+    "installDate": "2022-08-20",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 23.27864265479934,
+      "lng": 92.82533487289615
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4690"
+    }
+  },
+  {
+    "id": "L-057",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAG9",
+    "installDate": "2016-01-05",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 14.20345738932282,
+      "lng": 91.78457842446664
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7229"
+    }
+  },
+  {
+    "id": "S-058",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2023-01-04",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.242691866076537,
+      "lng": 74.9914148156559
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7250"
+    }
+  },
+  {
+    "id": "B-059",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Masonry",
+    "installDate": "2016-11-18",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 37.5578843586981,
+      "lng": 69.45303906090311
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7570"
+    }
+  },
+  {
+    "id": "L-060",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2019-07-18",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 35.25855240589565,
+      "lng": 94.03676687915933
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1446"
+    }
+  },
+  {
+    "id": "B-061",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Steel-Truss",
+    "installDate": "2023-06-30",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 26.565084395585195,
+      "lng": 70.44277147414091
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9161"
+    }
+  },
+  {
+    "id": "L-062",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP7",
+    "installDate": "2018-08-12",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 32.25441779621586,
+      "lng": 69.13157390576866
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6372"
+    }
+  },
+  {
+    "id": "L-063",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2022-05-26",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 20.702550358241787,
+      "lng": 94.46226244601453
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2671"
+    }
+  },
+  {
+    "id": "L-064",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2015-06-21",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.137107558191436,
+      "lng": 70.99376593978185
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6988"
+    }
+  },
+  {
+    "id": "L-065",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Manual-Gate",
+    "installDate": "2022-12-05",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 36.98580079925209,
+      "lng": 88.59349361702496
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1697"
+    }
+  },
+  {
+    "id": "L-066",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2018-08-03",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 11.033210902539022,
+      "lng": 89.30013028083036
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2457"
+    }
+  },
+  {
+    "id": "B-067",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Steel-Truss",
+    "installDate": "2017-04-30",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 22.57196125123569,
+      "lng": 88.88629921170651
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1350"
+    }
+  },
+  {
+    "id": "S-068",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S1",
+    "installDate": "2023-01-25",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 23.96466872855659,
+      "lng": 91.90029190164327
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7592"
+    }
+  },
+  {
+    "id": "S-069",
+    "type": "signal",
+    "zone": "Central",
+    "model": "LED-S2",
+    "installDate": "2023-11-25",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 29.13357909666894,
+      "lng": 92.1425761518385
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6625"
+    }
+  },
+  {
+    "id": "L-070",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP5",
+    "installDate": "2018-12-12",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 36.95848820350458,
+      "lng": 85.13792724300596
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2464"
+    }
+  },
+  {
+    "id": "B-071",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Masonry",
+    "installDate": "2022-08-16",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.652991195749298,
+      "lng": 93.29655430825214
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7671"
+    }
+  },
+  {
+    "id": "S-072",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2019-05-10",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 18.629328673891678,
+      "lng": 72.86867472778732
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5247"
+    }
+  },
+  {
+    "id": "L-073",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Auto-Barrier",
+    "installDate": "2017-01-22",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.409823344859532,
+      "lng": 74.05446992874518
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4470"
+    }
+  },
+  {
+    "id": "B-074",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2021-09-10",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 31.25703591217917,
+      "lng": 71.91392712658345
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8395"
+    }
+  },
+  {
+    "id": "S-075",
+    "type": "signal",
+    "zone": "Western",
+    "model": "MECH-S1",
+    "installDate": "2022-07-04",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 27.124968602582086,
+      "lng": 76.81029498072645
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4898"
+    }
+  },
+  {
+    "id": "B-076",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Masonry",
+    "installDate": "2016-06-27",
+    "health": 76,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 20.49971584710226,
+      "lng": 71.70678103477073
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2167"
+    }
+  },
+  {
+    "id": "L-077",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2023-11-13",
+    "health": 82,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 21.261011155075742,
+      "lng": 76.94607233018348
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7721"
+    }
+  },
+  {
+    "id": "B-078",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2020-11-17",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 37.36139105106523,
+      "lng": 79.07598274565028
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5970"
+    }
+  },
+  {
+    "id": "S-079",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S1",
+    "installDate": "2018-08-31",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 27.362152319768548,
+      "lng": 81.04114303741265
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8067"
+    }
+  },
+  {
+    "id": "S-080",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S1",
+    "installDate": "2019-11-17",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 21.381464813765426,
+      "lng": 96.30507414676937
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9142"
+    }
+  },
+  {
+    "id": "S-081",
+    "type": "signal",
+    "zone": "Central",
+    "model": "LED-S1",
+    "installDate": "2019-06-18",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 9.510913358756811,
+      "lng": 69.31017030583507
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9021"
+    }
+  },
+  {
+    "id": "L-082",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Manual-Gate",
+    "installDate": "2022-12-06",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 29.814212940081525,
+      "lng": 69.8986892504756
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7496"
+    }
+  },
+  {
+    "id": "L-083",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2018-09-12",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 17.397227076327763,
+      "lng": 79.6158515048688
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5569"
+    }
+  },
+  {
+    "id": "B-084",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2020-11-05",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 19.578619623866985,
+      "lng": 90.97564748644947
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4895"
+    }
+  },
+  {
+    "id": "B-085",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Concrete-Arch",
+    "installDate": "2022-07-18",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 13.46825817989858,
+      "lng": 85.4665257503062
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2327"
+    }
+  },
+  {
+    "id": "L-086",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAP7",
+    "installDate": "2016-09-21",
+    "health": 76,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 34.038088168176024,
+      "lng": 75.34905572045095
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4823"
+    }
+  },
+  {
+    "id": "L-087",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WDG4G",
+    "installDate": "2019-02-08",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 14.127502790098568,
+      "lng": 75.73654769389864
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2662"
+    }
+  },
+  {
+    "id": "L-088",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WDG4G",
+    "installDate": "2020-08-08",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 12.18777868630711,
+      "lng": 86.52388754513431
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8012"
+    }
+  },
+  {
+    "id": "S-089",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2022-08-10",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 37.09525882135083,
+      "lng": 69.70485472371296
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3595"
+    }
+  },
+  {
+    "id": "S-090",
+    "type": "signal",
+    "zone": "Western",
+    "model": "MECH-S1",
+    "installDate": "2016-09-21",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 10.122329866589697,
+      "lng": 83.55656476689907
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9037"
+    }
+  },
+  {
+    "id": "S-091",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2023-12-06",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 25.250035223455356,
+      "lng": 88.27784647652166
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2525"
+    }
+  },
+  {
+    "id": "B-092",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Steel-Truss",
+    "installDate": "2020-02-21",
+    "health": 84,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 25.931255023491552,
+      "lng": 75.06138189778424
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6656"
+    }
+  },
+  {
+    "id": "L-093",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WAP7",
+    "installDate": "2016-08-23",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 15.294334187857817,
+      "lng": 74.80440840508746
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3177"
+    }
+  },
+  {
+    "id": "B-094",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Masonry",
+    "installDate": "2019-10-04",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 35.457372204170646,
+      "lng": 72.97879274229857
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5302"
+    }
+  },
+  {
+    "id": "L-095",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WDG4G",
+    "installDate": "2015-10-17",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 32.65717759534949,
+      "lng": 75.01171502407544
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9867"
+    }
+  },
+  {
+    "id": "L-096",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Auto-Barrier",
+    "installDate": "2021-03-26",
+    "health": 96,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 13.418332390457005,
+      "lng": 78.46055150319114
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4866"
+    }
+  },
+  {
+    "id": "S-097",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S2",
+    "installDate": "2015-05-19",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 34.69669918041991,
+      "lng": 95.10022681506594
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4300"
+    }
+  },
+  {
+    "id": "L-098",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP5",
+    "installDate": "2017-03-15",
+    "health": 91,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 26.210015076625027,
+      "lng": 74.2195522022533
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4231"
+    }
+  },
+  {
+    "id": "L-099",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAP7",
+    "installDate": "2023-02-11",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 34.18835324183339,
+      "lng": 76.77771796135261
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1990"
+    }
+  },
+  {
+    "id": "L-100",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP7",
+    "installDate": "2023-02-26",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.090Z",
+    "gps": {
+      "lat": 34.73101034674892,
+      "lng": 80.01959519615859
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5232"
+    }
+  },
+  {
+    "id": "L-101",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2020-07-22",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 28.770467253759406,
+      "lng": 92.34087855017225
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5215"
+    }
+  },
+  {
+    "id": "S-102",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S2",
+    "installDate": "2023-10-21",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.020102182934572,
+      "lng": 69.95584115544695
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8153"
+    }
+  },
+  {
+    "id": "B-103",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2022-11-19",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.14591043622596,
+      "lng": 97.13355558853064
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5262"
+    }
+  },
+  {
+    "id": "L-104",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Manual-Gate",
+    "installDate": "2020-08-26",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 25.854150284052366,
+      "lng": 89.28182159385425
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4129"
+    }
+  },
+  {
+    "id": "S-105",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2018-08-22",
+    "health": 91,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 16.254990335668925,
+      "lng": 91.43679296885718
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8290"
+    }
+  },
+  {
+    "id": "L-106",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Auto-Barrier",
+    "installDate": "2020-03-25",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 26.822435728958872,
+      "lng": 94.9582695990517
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8534"
+    }
+  },
+  {
+    "id": "B-107",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Concrete-Arch",
+    "installDate": "2017-11-27",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.512991036946797,
+      "lng": 89.09495122743691
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6291"
+    }
+  },
+  {
+    "id": "B-108",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Concrete-Arch",
+    "installDate": "2016-08-17",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 25.1329609037415,
+      "lng": 85.41182814985636
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9174"
+    }
+  },
+  {
+    "id": "S-109",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S1",
+    "installDate": "2020-03-22",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.027671635390746,
+      "lng": 83.66115948343268
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7291"
+    }
+  },
+  {
+    "id": "B-110",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Masonry",
+    "installDate": "2021-05-06",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 25.524962738903874,
+      "lng": 76.31797693659276
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4380"
+    }
+  },
+  {
+    "id": "L-111",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2017-11-14",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 11.354971499890448,
+      "lng": 70.63077206009862
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1522"
+    }
+  },
+  {
+    "id": "B-112",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Steel-Truss",
+    "installDate": "2022-09-22",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 33.3281681934476,
+      "lng": 85.06839477370528
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7897"
+    }
+  },
+  {
+    "id": "S-113",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S1",
+    "installDate": "2021-09-07",
+    "health": 91,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 24.98991998702786,
+      "lng": 90.85166690382579
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8544"
+    }
+  },
+  {
+    "id": "S-114",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S1",
+    "installDate": "2015-07-13",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 36.90299999428025,
+      "lng": 83.94610232415137
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5338"
+    }
+  },
+  {
+    "id": "L-115",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2016-10-21",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 16.850711271188842,
+      "lng": 78.6604663533005
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4737"
+    }
+  },
+  {
+    "id": "L-116",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAG9",
+    "installDate": "2015-09-03",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 32.35024848409758,
+      "lng": 79.14057181946049
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6658"
+    }
+  },
+  {
+    "id": "B-117",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Steel-Truss",
+    "installDate": "2016-12-17",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 13.077450349147327,
+      "lng": 71.9385366069154
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4154"
+    }
+  },
+  {
+    "id": "B-118",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Steel-Truss",
+    "installDate": "2020-01-04",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 24.463011163828078,
+      "lng": 78.45867408250463
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6064"
+    }
+  },
+  {
+    "id": "B-119",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Steel-Truss",
+    "installDate": "2016-12-27",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 21.047815015715415,
+      "lng": 94.77430949527371
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3087"
+    }
+  },
+  {
+    "id": "L-120",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2023-06-20",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 25.22911543405116,
+      "lng": 79.16150175136828
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5716"
+    }
+  },
+  {
+    "id": "L-121",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2023-08-20",
+    "health": 96,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.707794256279335,
+      "lng": 70.98543042092328
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8420"
+    }
+  },
+  {
+    "id": "B-122",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Masonry",
+    "installDate": "2017-06-08",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 23.613724798983966,
+      "lng": 94.89709639046768
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3595"
+    }
+  },
+  {
+    "id": "L-123",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Auto-Barrier",
+    "installDate": "2021-12-08",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.128886736770063,
+      "lng": 71.07541946295422
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9556"
+    }
+  },
+  {
+    "id": "S-124",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "MECH-S1",
+    "installDate": "2017-08-07",
+    "health": 84,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 29.717137107743255,
+      "lng": 93.66601539478252
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3383"
+    }
+  },
+  {
+    "id": "S-125",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2020-04-13",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 23.3173955077267,
+      "lng": 96.7586939092365
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9593"
+    }
+  },
+  {
+    "id": "L-126",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2016-05-11",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 11.77827533601049,
+      "lng": 95.79363046573536
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4591"
+    }
+  },
+  {
+    "id": "L-127",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAG9",
+    "installDate": "2019-08-19",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 8.576008697370476,
+      "lng": 73.57397372711446
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1469"
+    }
+  },
+  {
+    "id": "B-128",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Concrete-Arch",
+    "installDate": "2022-10-01",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 16.982382115620936,
+      "lng": 91.61025280249947
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7063"
+    }
+  },
+  {
+    "id": "S-129",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S2",
+    "installDate": "2018-04-09",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 33.59521550165741,
+      "lng": 87.5310323799333
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8750"
+    }
+  },
+  {
+    "id": "L-130",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Auto-Barrier",
+    "installDate": "2018-01-14",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 10.110826966453253,
+      "lng": 90.47574619349103
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2702"
+    }
+  },
+  {
+    "id": "S-131",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2021-04-01",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.8065639794668,
+      "lng": 74.10817319992267
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5442"
+    }
+  },
+  {
+    "id": "L-132",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2023-10-12",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 11.138281797219335,
+      "lng": 83.22225730955391
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5662"
+    }
+  },
+  {
+    "id": "B-133",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Steel-Truss",
+    "installDate": "2018-12-02",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 12.600878281284505,
+      "lng": 86.90177579145359
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2970"
+    }
+  },
+  {
+    "id": "L-134",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP7",
+    "installDate": "2021-04-18",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.93774510779315,
+      "lng": 84.94109461498572
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5587"
+    }
+  },
+  {
+    "id": "L-135",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2020-05-01",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 36.80887043078186,
+      "lng": 74.37502089406512
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7156"
+    }
+  },
+  {
+    "id": "B-136",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2018-04-12",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 34.18400719596726,
+      "lng": 77.38020965342531
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4124"
+    }
+  },
+  {
+    "id": "L-137",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2018-11-15",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 12.074312246163288,
+      "lng": 85.07049856021955
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5154"
+    }
+  },
+  {
+    "id": "L-138",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP7",
+    "installDate": "2022-08-10",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.5562482941962,
+      "lng": 90.9747436740622
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2011"
+    }
+  },
+  {
+    "id": "S-139",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S1",
+    "installDate": "2018-02-06",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 13.618725942403763,
+      "lng": 88.98320015465896
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5411"
+    }
+  },
+  {
+    "id": "L-140",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Auto-Barrier",
+    "installDate": "2020-02-23",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 31.037426200838716,
+      "lng": 79.12326584670578
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7567"
+    }
+  },
+  {
+    "id": "B-141",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Steel-Truss",
+    "installDate": "2016-05-09",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 9.275915758251429,
+      "lng": 84.89134966876424
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7877"
+    }
+  },
+  {
+    "id": "B-142",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Masonry",
+    "installDate": "2017-03-14",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.51909732321457,
+      "lng": 91.48011008152847
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5889"
+    }
+  },
+  {
+    "id": "L-143",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2023-08-13",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 18.67131033685198,
+      "lng": 78.76822517122041
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2881"
+    }
+  },
+  {
+    "id": "L-144",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Auto-Barrier",
+    "installDate": "2019-12-25",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 34.42395968818343,
+      "lng": 96.06774285284948
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5584"
+    }
+  },
+  {
+    "id": "L-145",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Manual-Gate",
+    "installDate": "2018-10-23",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 16.443041929137117,
+      "lng": 88.06978096725993
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5018"
+    }
+  },
+  {
+    "id": "S-146",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S1",
+    "installDate": "2023-12-14",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 22.237027657184846,
+      "lng": 84.24441859418783
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8798"
+    }
+  },
+  {
+    "id": "S-147",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2016-11-01",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 17.385461853677896,
+      "lng": 94.33827342896514
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2270"
+    }
+  },
+  {
+    "id": "B-148",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2020-02-07",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 8.50579617576934,
+      "lng": 71.49914200587376
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8750"
+    }
+  },
+  {
+    "id": "L-149",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAG9",
+    "installDate": "2021-02-19",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 20.91979818508648,
+      "lng": 94.51425696772856
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2865"
+    }
+  },
+  {
+    "id": "S-150",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2023-10-05",
+    "health": 94,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 24.44921627436741,
+      "lng": 80.06286212042329
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9622"
+    }
+  },
+  {
+    "id": "L-151",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAP7",
+    "installDate": "2023-09-20",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 15.579594308873565,
+      "lng": 72.16245864377245
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3445"
+    }
+  },
+  {
+    "id": "S-152",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S1",
+    "installDate": "2020-08-15",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 30.926914829585264,
+      "lng": 92.92036504490146
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6305"
+    }
+  },
+  {
+    "id": "L-153",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WAP7",
+    "installDate": "2020-10-19",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 22.31527502520366,
+      "lng": 79.1699892859901
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4661"
+    }
+  },
+  {
+    "id": "L-154",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WAG9",
+    "installDate": "2020-07-09",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 28.02249814455829,
+      "lng": 78.15553517985758
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4355"
+    }
+  },
+  {
+    "id": "S-155",
+    "type": "signal",
+    "zone": "Western",
+    "model": "MECH-S1",
+    "installDate": "2015-03-22",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 23.259635032992435,
+      "lng": 82.45681923558791
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4093"
+    }
+  },
+  {
+    "id": "S-156",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2016-04-19",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 9.754443305996604,
+      "lng": 83.50809737109991
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7935"
+    }
+  },
+  {
+    "id": "S-157",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2021-06-02",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 11.359745816206702,
+      "lng": 85.37289702524126
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4848"
+    }
+  },
+  {
+    "id": "L-158",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAP7",
+    "installDate": "2019-02-27",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 13.171558519650649,
+      "lng": 87.71677845332368
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4594"
+    }
+  },
+  {
+    "id": "B-159",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Masonry",
+    "installDate": "2017-01-02",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 34.02042077226017,
+      "lng": 79.59822770624528
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9980"
+    }
+  },
+  {
+    "id": "L-160",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAG9",
+    "installDate": "2015-07-11",
+    "health": 78,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 15.20924060206261,
+      "lng": 70.73190947830149
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2397"
+    }
+  },
+  {
+    "id": "S-161",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2016-03-12",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 20.93605551001798,
+      "lng": 94.33321684128484
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4808"
+    }
+  },
+  {
+    "id": "S-162",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2022-02-11",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.091Z",
+    "gps": {
+      "lat": 13.84162792744754,
+      "lng": 89.68140050669473
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7128"
+    }
+  },
+  {
+    "id": "L-163",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2016-02-26",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 10.207198389958016,
+      "lng": 79.92672003036797
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7620"
+    }
+  },
+  {
+    "id": "B-164",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Masonry",
+    "installDate": "2016-02-04",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 25.17578082023808,
+      "lng": 94.9220183667318
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2282"
+    }
+  },
+  {
+    "id": "S-165",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2018-10-11",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 11.811726551640252,
+      "lng": 86.21968421936522
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9741"
+    }
+  },
+  {
+    "id": "L-166",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2020-12-10",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 14.823336295493974,
+      "lng": 72.74840310857059
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6554"
+    }
+  },
+  {
+    "id": "L-167",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Auto-Barrier",
+    "installDate": "2020-03-06",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 21.998317853651336,
+      "lng": 91.28458699226272
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5693"
+    }
+  },
+  {
+    "id": "L-168",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2017-11-14",
+    "health": 75,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 33.932701363206334,
+      "lng": 71.62113666053881
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8712"
+    }
+  },
+  {
+    "id": "L-169",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WAG9",
+    "installDate": "2017-07-18",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 29.03855234755246,
+      "lng": 92.54456472766098
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2739"
+    }
+  },
+  {
+    "id": "L-170",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2016-07-26",
+    "health": 82,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 22.636394323530723,
+      "lng": 72.2916272329108
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6435"
+    }
+  },
+  {
+    "id": "S-171",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2023-09-26",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 25.616839480867043,
+      "lng": 71.61940228123439
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9443"
+    }
+  },
+  {
+    "id": "L-172",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WDG4G",
+    "installDate": "2022-06-02",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 20.090422694603006,
+      "lng": 86.68110859047614
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5646"
+    }
+  },
+  {
+    "id": "L-173",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2022-07-15",
+    "health": 95,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 33.692087143209285,
+      "lng": 95.82841019607262
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4816"
+    }
+  },
+  {
+    "id": "B-174",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2023-12-08",
+    "health": 88,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 33.446688143644714,
+      "lng": 82.05931461757719
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1888"
+    }
+  },
+  {
+    "id": "S-175",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2023-03-12",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 36.58406440594924,
+      "lng": 74.61041547815313
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9593"
+    }
+  },
+  {
+    "id": "S-176",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "MECH-S1",
+    "installDate": "2020-07-02",
+    "health": 74,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 13.015117723123119,
+      "lng": 88.22778360889725
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9604"
+    }
+  },
+  {
+    "id": "B-177",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Steel-Truss",
+    "installDate": "2023-12-27",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 34.6573231354066,
+      "lng": 83.7107702591818
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1857"
+    }
+  },
+  {
+    "id": "B-178",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Masonry",
+    "installDate": "2017-04-05",
+    "health": 97,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 34.89826370248413,
+      "lng": 85.2163658741005
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1679"
+    }
+  },
+  {
+    "id": "S-179",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S1",
+    "installDate": "2016-07-22",
+    "health": 71,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 14.739943679540524,
+      "lng": 75.18430954162666
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3452"
+    }
+  },
+  {
+    "id": "L-180",
+    "type": "level_crossing",
+    "zone": "Southern",
+    "model": "Manual-Gate",
+    "installDate": "2015-10-13",
+    "health": 79,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 22.065243939622373,
+      "lng": 93.41562820359769
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6349"
+    }
+  },
+  {
+    "id": "S-181",
+    "type": "signal",
+    "zone": "Southern",
+    "model": "LED-S2",
+    "installDate": "2022-01-13",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 27.260331852024287,
+      "lng": 69.29058707730277
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5262"
+    }
+  },
+  {
+    "id": "S-182",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S2",
+    "installDate": "2019-03-25",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 29.633286543996014,
+      "lng": 94.15857552793551
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1047"
+    }
+  },
+  {
+    "id": "S-183",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S2",
+    "installDate": "2015-06-09",
+    "health": 73,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 31.85561760347293,
+      "lng": 84.22383310723848
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5771"
+    }
+  },
+  {
+    "id": "B-184",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Concrete-Arch",
+    "installDate": "2021-01-06",
+    "health": 89,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 36.25316012791081,
+      "lng": 70.2999762000942
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2431"
+    }
+  },
+  {
+    "id": "B-185",
+    "type": "bridge",
+    "zone": "Western",
+    "model": "Steel-Truss",
+    "installDate": "2020-06-12",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 15.530177398212134,
+      "lng": 87.19585576858563
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1901"
+    }
+  },
+  {
+    "id": "B-186",
+    "type": "bridge",
+    "zone": "Eastern",
+    "model": "Steel-Truss",
+    "installDate": "2015-03-25",
+    "health": 77,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 22.070351652156077,
+      "lng": 73.37636354180096
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3249"
+    }
+  },
+  {
+    "id": "L-187",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2015-02-05",
+    "health": 87,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 37.08785442196707,
+      "lng": 88.9653260332755
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5599"
+    }
+  },
+  {
+    "id": "L-188",
+    "type": "level_crossing",
+    "zone": "Eastern",
+    "model": "Manual-Gate",
+    "installDate": "2022-09-21",
+    "health": 90,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 11.186659141825043,
+      "lng": 73.26300441287964
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2525"
+    }
+  },
+  {
+    "id": "S-189",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "MECH-S1",
+    "installDate": "2019-05-10",
+    "health": 100,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 9.211287620523743,
+      "lng": 75.255906847989
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2842"
+    }
+  },
+  {
+    "id": "B-190",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Concrete-Arch",
+    "installDate": "2020-09-21",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 9.748967061081688,
+      "lng": 72.84727626055695
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3661"
+    }
+  },
+  {
+    "id": "S-191",
+    "type": "signal",
+    "zone": "Eastern",
+    "model": "LED-S1",
+    "installDate": "2023-07-09",
+    "health": 75,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 26.562527778060925,
+      "lng": 72.84581603593395
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-3854"
+    }
+  },
+  {
+    "id": "L-192",
+    "type": "locomotive",
+    "zone": "Northern",
+    "model": "WDG4G",
+    "installDate": "2020-03-08",
+    "health": 75,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 28.239240710915766,
+      "lng": 80.90076112488278
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1841"
+    }
+  },
+  {
+    "id": "S-193",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S1",
+    "installDate": "2016-12-04",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 27.293252234223708,
+      "lng": 69.6703467945937
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-4103"
+    }
+  },
+  {
+    "id": "L-194",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2020-12-17",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 14.667408549570489,
+      "lng": 73.9149468543843
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1251"
+    }
+  },
+  {
+    "id": "S-195",
+    "type": "signal",
+    "zone": "Northern",
+    "model": "LED-S2",
+    "installDate": "2023-11-23",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 13.19786154468622,
+      "lng": 72.8973132895419
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2673"
+    }
+  },
+  {
+    "id": "L-196",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WDG4G",
+    "installDate": "2020-10-24",
+    "health": 81,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 10.464711782565885,
+      "lng": 84.18287464501324
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5376"
+    }
+  },
+  {
+    "id": "B-197",
+    "type": "bridge",
+    "zone": "Southern",
+    "model": "Concrete-Arch",
+    "installDate": "2022-01-13",
+    "health": 83,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 14.538956759942835,
+      "lng": 81.86998740930049
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6004"
+    }
+  },
+  {
+    "id": "L-198",
+    "type": "level_crossing",
+    "zone": "Western",
+    "model": "Manual-Gate",
+    "installDate": "2015-10-18",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 10.827499670685077,
+      "lng": 81.97175138492528
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7219"
+    }
+  },
+  {
+    "id": "L-199",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP5",
+    "installDate": "2022-12-14",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 23.725565733583437,
+      "lng": 78.7120790396087
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-9947"
+    }
+  },
+  {
+    "id": "L-200",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WAP5",
+    "installDate": "2021-04-27",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 18.878856347092462,
+      "lng": 85.68405946571018
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6789"
+    }
+  },
+  {
+    "id": "S-201",
+    "type": "signal",
+    "zone": "Central",
+    "model": "MECH-S1",
+    "installDate": "2019-01-17",
+    "health": 85,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 14.961598309797228,
+      "lng": 73.34227398521091
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1188"
+    }
+  },
+  {
+    "id": "B-202",
+    "type": "bridge",
+    "zone": "Northern",
+    "model": "Masonry",
+    "installDate": "2016-04-12",
+    "health": 99,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 35.5257298966354,
+      "lng": 90.91072147977331
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-6117"
+    }
+  },
+  {
+    "id": "L-203",
+    "type": "locomotive",
+    "zone": "Southern",
+    "model": "WDG4G",
+    "installDate": "2017-07-20",
+    "health": 82,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 10.786111788171208,
+      "lng": 88.15424286550751
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1444"
+    }
+  },
+  {
+    "id": "L-204",
+    "type": "level_crossing",
+    "zone": "Northern",
+    "model": "Manual-Gate",
+    "installDate": "2015-05-14",
+    "health": 80,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 11.286732819859566,
+      "lng": 78.18814431868891
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-7360"
+    }
+  },
+  {
+    "id": "L-205",
+    "type": "locomotive",
+    "zone": "Western",
+    "model": "WAP5",
+    "installDate": "2015-04-03",
+    "health": 72,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 36.79164171967918,
+      "lng": 70.07617704384866
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-1869"
+    }
+  },
+  {
+    "id": "L-206",
+    "type": "level_crossing",
+    "zone": "Central",
+    "model": "Manual-Gate",
+    "installDate": "2016-10-26",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 11.393639141843654,
+      "lng": 87.12663165084581
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8990"
+    }
+  },
+  {
+    "id": "B-207",
+    "type": "bridge",
+    "zone": "Central",
+    "model": "Concrete-Arch",
+    "installDate": "2022-12-12",
+    "health": 93,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 23.849855120081834,
+      "lng": 87.43825331884523
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2282"
+    }
+  },
+  {
+    "id": "S-208",
+    "type": "signal",
+    "zone": "Western",
+    "model": "LED-S1",
+    "installDate": "2022-06-09",
+    "health": 70,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 11.965226872999532,
+      "lng": 84.11022594530719
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-8207"
+    }
+  },
+  {
+    "id": "L-209",
+    "type": "locomotive",
+    "zone": "Eastern",
+    "model": "WDG4G",
+    "installDate": "2017-05-21",
+    "health": 98,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 22.6786886631645,
+      "lng": 69.29650499984824
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-2294"
+    }
+  },
+  {
+    "id": "L-210",
+    "type": "locomotive",
+    "zone": "Central",
+    "model": "WAP7",
+    "installDate": "2019-03-16",
+    "health": 92,
+    "lastSeen": "2026-01-22T14:41:00.092Z",
+    "gps": {
+      "lat": 23.64666517519507,
+      "lng": 73.87947602828771
+    },
+    "metadata": {
+      "owner": "IR",
+      "serial": "SN-5977"
+    }
+  }
+]

@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rail-orange: #FF6A00;
+  --color-rail-black: #0B0B0B;
+  --color-rail-charcoal: #1A1A1A;
+  --color-rail-white: #EAEAEA;
+  --color-rail-gray: #888888;
+}
+
+:root {
+  font-family: 'Play', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #EAEAEA;
+  background-color: #0B0B0B;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply bg-[#0B0B0B] text-[#EAEAEA];
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-headline {
+  font-family: 'Smooch Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Industrial glass pattern */
+.industrial-glass {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 106, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+.industrial-glass:hover {
+  border: 1px solid rgba(255, 106, 0, 0.3);
+  box-shadow: 0 0 20px rgba(255, 106, 0, 0.1);
+}
+
+/* Orange Glow Utility */
+.glow-orange {
+  filter: drop-shadow(0 0 8px rgba(255, 106, 0, 0.4));
+}
+
+.flash-orange {
+  animation: flash-orange 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes flash-orange {
+  0% {
+    background-color: rgba(255, 106, 0, 0);
+  }
+
+  20% {
+    background-color: rgba(255, 106, 0, 0.2);
+  }
+
+  100% {
+    background-color: rgba(255, 106, 0, 0);
+  }
+}
+
+.orange-border-gradient {
+  border-image: linear-gradient(to right, #FF6A00, transparent) 1;
+}
+
+/* Antigravity-style motion classes */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}
