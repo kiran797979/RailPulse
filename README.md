@@ -1,9 +1,12 @@
+# RailPulse - National-Scale Industrial IoT Platform
+
 RailPulse is a premium, high-fidelity web prototype for a national railway monitor and monetization engine. It transforms raw sensor telemetry from 42,000 KM of infrastructure into a sovereign data economy.
 
 **🚀 Live Demo**: [https://kiran797979.github.io/RailPulse/](https://kiran797979.github.io/RailPulse/)
 
 ---
 
+## 🎨 Industrial Design System
 - **Hero Visual**: Cinematic **Spline 3D** kinetic engine (Reactive, Industrial, High-fidelity)
 - **Theme**: Obsidian Industrial (Deep blacks with glowing kinetic orange accents)
 - **Palette**: `#0B0B0B` (Base), `#FF6A00` (Core Pulse), `#1A1A1A` (Tactical Glass)
@@ -14,6 +17,7 @@ RailPulse is a premium, high-fidelity web prototype for a national railway monit
 
 ---
 
+## 🛠 Tech Stack
 - **Framework**: React (Vite)
 - **3D Engine**: Spline (React-Spline)
 - **Styling**: Tailwind CSS (Custom industrial tokens)
@@ -50,6 +54,7 @@ RailPulse is a premium, high-fidelity web prototype for a national railway monit
 
 ---
 
+## ✅ Acceptance Checklist
 - [x] **Spline Integration**: High-fidelity 3D industrial visual integrated in the Hero section.
 - [x] **Page Elevations**: Home, Architecture, Dashboard, Asset, Analytics, Monetization, and Pilot are fully redesigned.
 - [x] **Motion System**: GSAP ScrollTrigger integrated for high-impact visual storytelling.
