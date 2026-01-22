@@ -18,29 +18,51 @@ const Architecture = () => {
     ];
 
     useEffect(() => {
-        const ctx = gsap.context(() => {
-            // Layer animations
-            gsap.utils.toArray(".arch-layer").forEach((layer, i) => {
-                gsap.from(layer, {
-                    scrollTrigger: {
-                        trigger: layer,
-                        start: "top 85%",
-                        toggleActions: "play none none reverse"
-                    },
-                    y: 100,
-                    opacity: 0,
-                    duration: 1.2,
-                    ease: "power3.out"
-                });
-            });
+        const mm = gsap.matchMedia();
 
-            // Connection line pulse
+        const ctx = gsap.context(() => {
+            // Pulse animation (Global)
             gsap.to(".connection-line", {
                 opacity: 0.2,
                 duration: 1.5,
                 repeat: -1,
                 yoyo: true,
                 ease: "sine.inOut"
+            });
+
+            mm.add("(min-width: 768px)", () => {
+                // Desktop: Alternating X-axis Reveals
+                gsap.utils.toArray(".arch-layer").forEach((layer, i) => {
+                    const isLeft = i % 2 === 0;
+                    gsap.from(layer.querySelector(".arch-content"), {
+                        scrollTrigger: {
+                            trigger: layer,
+                            start: "top 80%",
+                            toggleActions: "play none none reverse"
+                        },
+                        x: isLeft ? -100 : 100,
+                        opacity: 0,
+                        duration: 1,
+                        ease: "power3.out"
+                    });
+                });
+            });
+
+            mm.add("(max-width: 767px)", () => {
+                // Mobile: Simple Vertical Fade Up
+                gsap.utils.toArray(".arch-layer").forEach((layer) => {
+                    gsap.from(layer.querySelector(".arch-content"), {
+                        scrollTrigger: {
+                            trigger: layer,
+                            start: "top 85%",
+                            toggleActions: "play none none reverse"
+                        },
+                        y: 50,
+                        opacity: 0,
+                        duration: 0.8,
+                        ease: "power3.out"
+                    });
+                });
             });
         }, containerRef);
 
@@ -67,13 +89,13 @@ const Architecture = () => {
 
                 <div className="relative">
                     {/* Central Pulsing Line */}
-                    <div className="absolute left-1/2 -track-x-1/2 top-0 bottom-0 w-[2px] bg-rail-orange/30 connection-line z-0 shadow-[0_0_15px_rgba(255,106,0,0.3)]"></div>
+                    <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-[2px] bg-rail-orange/30 connection-line z-0 shadow-[0_0_15px_rgba(255,106,0,0.3)]"></div>
 
                     <div className="space-y-24 md:space-y-40 relative z-10">
                         {layers.map((layer, index) => (
-                            <div key={index} className={`arch-layer flex items-center justify-center md:block relative`}>
-                                <div className={`w-full md:w-1/2 p-2 md:p-4 flex ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} justify-center`}>
-                                    <div className={`industrial-glass p-6 md:p-10 rounded-[1.5rem] md:rounded-[2.5rem] border border-white/5 hover:border-rail-orange/40 transition-all group cursor-default max-w-sm md:max-w-md text-center ${index % 2 === 0 ? 'md:mr-12 md:text-right' : 'md:ml-12 md:text-left'}`}>
+                            <div key={index} className={`arch-layer flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center relative`}>
+                                <div className={`w-full md:w-1/2 p-2 md:p-4 flex md:justify-end justify-center`}>
+                                    <div className={`arch-content industrial-glass p-6 md:p-10 rounded-[1.5rem] md:rounded-[2.5rem] border border-white/5 hover:border-rail-orange/40 transition-all group cursor-default max-w-sm md:max-w-md text-center ${index % 2 === 0 ? 'md:mr-12 md:text-right' : 'md:ml-12 md:text-left'}`}>
                                         <div className="text-4xl md:text-5xl mb-4 md:mb-6 group-hover:scale-110 transition-transform origin-center inline-block">{layer.icon}</div>
                                         <h3 className="text-2xl md:text-3xl font-headline font-black text-white mb-2 md:mb-3 tracking-tight group-hover:text-rail-orange transition-colors uppercase">{layer.title}</h3>
                                         <p className="text-rail-gray font-medium text-[10px] md:text-xs mb-4 md:mb-6 leading-relaxed uppercase tracking-widest opacity-70 group-hover:opacity-100 transition-opacity">{layer.desc}</p>
