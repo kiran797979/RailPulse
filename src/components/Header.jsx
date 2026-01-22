@@ -16,9 +16,9 @@ const Header = () => {
 
     return (
         <header className="sticky top-0 z-50 industrial-glass border-b border-rail-orange/20">
-            <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+            <div className="container mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
                 <Link to="/" className="flex items-center space-x-2">
-                    <Logo className="scale-75 origin-left" />
+                    <Logo className="scale-60 md:scale-75 origin-left" />
                 </Link>
                 <nav className="hidden md:flex space-x-8">
                     {navLinks.map((link) => (
@@ -35,9 +35,9 @@ const Header = () => {
                 <div className="flex items-center space-x-4">
                     <Link
                         to="/dashboard"
-                        className="bg-rail-orange text-black px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest hover:bg-white hover:scale-105 transition-all shadow-lg active:scale-95 glow-orange"
+                        className="bg-rail-orange text-black px-4 md:px-6 py-2 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest hover:bg-white hover:scale-105 transition-all shadow-lg active:scale-95 glow-orange whitespace-nowrap"
                     >
-                        Launch Demo
+                        Demo
                     </Link>
                 </div>
             </div>

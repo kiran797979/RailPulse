@@ -48,53 +48,53 @@ const Architecture = () => {
     }, []);
 
     return (
-        <div ref={containerRef} className="bg-[#0B0B0B] py-32 px-6 overflow-hidden">
+        <div ref={containerRef} className="bg-[#0B0B0B] py-20 md:py-32 px-4 md:px-6 overflow-hidden">
             <div className="container mx-auto max-w-5xl arch-container">
-                <div className="text-center mb-32 arch-intro">
-                    <div className="inline-block px-4 py-1 rounded-full bg-rail-orange/10 border border-rail-orange/20 text-rail-orange text-[10px] font-black tracking-[0.3em] uppercase mb-8">
+                <div className="text-center mb-20 md:mb-32 arch-intro">
+                    <div className="inline-block px-4 py-1 rounded-full bg-rail-orange/10 border border-rail-orange/20 text-rail-orange text-[9px] md:text-[10px] font-black tracking-[0.3em] uppercase mb-6 md:mb-8">
                         System Schematic v4.0.2
                     </div>
-                    <h1 className="text-6xl md:text-8xl font-headline font-black text-white mb-8 tracking-tighter">DATA PIPELINE</h1>
-                    <p className="text-lg text-rail-gray max-w-2xl mx-auto font-medium uppercase tracking-wider leading-relaxed">
+                    <h1 className="text-5xl md:text-8xl font-headline font-black text-white mb-6 md:mb-8 tracking-tighter">DATA PIPELINE</h1>
+                    <p className="text-base md:text-lg text-rail-gray max-w-2xl mx-auto font-medium uppercase tracking-wider leading-relaxed opacity-80 md:opacity-100">
                         A deterministic multi-layered stack transforming physical vibrations into national-scale safety intelligence.
                     </p>
 
-                    <div className="mt-16 industrial-glass p-6 rounded-2xl border border-rail-orange/20 inline-flex items-center space-x-4 text-rail-orange text-[10px] font-black uppercase tracking-widest animate-pulse">
-                        <span className="w-3 h-3 bg-rail-orange rounded-full shadow-[0_0_10px_#FF6A00]"></span>
-                        <span>SECURITY PROTOCOL: Control systems remain air-gapped. This pipeline is read-only telemetry.</span>
+                    <div className="mt-12 md:mt-16 industrial-glass p-4 md:p-6 rounded-2xl border border-rail-orange/20 inline-flex items-center space-x-4 text-rail-orange text-[9px] md:text-[10px] font-black uppercase tracking-widest animate-pulse">
+                        <span className="w-2 md:w-3 h-2 md:h-3 bg-rail-orange rounded-full shadow-[0_0_10px_#FF6A00] shrink-0"></span>
+                        <span className="text-left">SECURITY PROTOCOL: Control systems remain air-gapped. Pipeline is read-only.</span>
                     </div>
                 </div>
 
                 <div className="relative">
                     {/* Central Pulsing Line */}
-                    <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-[2px] bg-rail-orange/30 connection-line z-0 shadow-[0_0_15px_rgba(255,106,0,0.3)]"></div>
+                    <div className="absolute left-1/2 -track-x-1/2 top-0 bottom-0 w-[2px] bg-rail-orange/30 connection-line z-0 shadow-[0_0_15px_rgba(255,106,0,0.3)]"></div>
 
-                    <div className="space-y-40 relative z-10">
+                    <div className="space-y-24 md:space-y-40 relative z-10">
                         {layers.map((layer, index) => (
-                            <div key={index} className={`arch-layer flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                                <div className={`w-1/2 p-4 flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'}`}>
-                                    <div className={`industrial-glass p-10 rounded-[2.5rem] border border-white/5 hover:border-rail-orange/40 transition-all group cursor-default max-w-md ${index % 2 === 0 ? 'mr-12 text-right' : 'ml-12 text-left'}`}>
-                                        <div className="text-5xl mb-6 group-hover:scale-110 transition-transform origin-center inline-block">{layer.icon}</div>
-                                        <h3 className="text-3xl font-headline font-black text-white mb-3 tracking-tight group-hover:text-rail-orange transition-colors">{layer.title}</h3>
-                                        <p className="text-rail-gray font-medium text-xs mb-6 leading-relaxed uppercase tracking-widest">{layer.desc}</p>
-                                        <span className="px-4 py-2 bg-rail-orange/10 text-rail-orange text-[9px] font-black rounded-lg uppercase tracking-[0.2em] border border-rail-orange/20">{layer.tech}</span>
+                            <div key={index} className={`arch-layer flex items-center justify-center md:block relative`}>
+                                <div className={`w-full md:w-1/2 p-2 md:p-4 flex ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} justify-center`}>
+                                    <div className={`industrial-glass p-6 md:p-10 rounded-[1.5rem] md:rounded-[2.5rem] border border-white/5 hover:border-rail-orange/40 transition-all group cursor-default max-w-sm md:max-w-md text-center ${index % 2 === 0 ? 'md:mr-12 md:text-right' : 'md:ml-12 md:text-left'}`}>
+                                        <div className="text-4xl md:text-5xl mb-4 md:mb-6 group-hover:scale-110 transition-transform origin-center inline-block">{layer.icon}</div>
+                                        <h3 className="text-2xl md:text-3xl font-headline font-black text-white mb-2 md:mb-3 tracking-tight group-hover:text-rail-orange transition-colors uppercase">{layer.title}</h3>
+                                        <p className="text-rail-gray font-medium text-[10px] md:text-xs mb-4 md:mb-6 leading-relaxed uppercase tracking-widest opacity-70 group-hover:opacity-100 transition-opacity">{layer.desc}</p>
+                                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-rail-orange/10 text-rail-orange text-[8px] md:text-[9px] font-black rounded-lg uppercase tracking-[0.2em] border border-rail-orange/20">{layer.tech}</span>
                                     </div>
                                 </div>
                                 {/* Tactical Node on the line */}
-                                <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
-                                    <div className="w-4 h-4 rounded-full bg-[#0B0B0B] border-2 border-rail-orange shadow-[0_0_10px_#FF6A00] z-20"></div>
-                                    <div className="absolute w-12 h-12 bg-rail-orange/20 rounded-full animate-ping opacity-20"></div>
+                                <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center top-1/2 -translate-y-1/2 md:translate-y-0 md:top-auto">
+                                    <div className="w-3 md:w-4 h-3 md:h-4 rounded-full bg-[#0B0B0B] border-2 border-rail-orange shadow-[0_0_10px_#FF6A00] z-20"></div>
+                                    <div className="absolute w-8 md:w-12 h-8 md:h-12 bg-rail-orange/20 rounded-full animate-ping opacity-20"></div>
                                 </div>
-                                <div className="w-1/2"></div>
+                                <div className="hidden md:block md:w-1/2"></div>
                             </div>
                         ))}
                     </div>
                 </div>
 
-                <div className="mt-48 text-center">
-                    <div className="inline-block p-10 industrial-glass border border-white/5 rounded-[3rem]">
-                        <p className="text-rail-gray font-black text-xs uppercase tracking-[0.4em] mb-10 italic">Core Processing Latency: &lt; 140ms</p>
-                        <button className="px-12 py-5 bg-rail-orange text-black font-black rounded-full hover:bg-white transition-all text-xs uppercase tracking-widest glow-orange">
+                <div className="mt-32 md:mt-48 text-center px-4">
+                    <div className="inline-block p-8 md:p-10 industrial-glass border border-white/5 rounded-[2rem] md:rounded-[3rem] w-full md:w-auto">
+                        <p className="text-rail-gray font-black text-[10px] md:text-xs uppercase tracking-[0.4em] mb-8 md:mb-10 italic">Core Processing Latency: &lt; 140ms</p>
+                        <button className="px-8 md:px-12 py-4 md:py-5 bg-rail-orange text-black font-black rounded-full hover:bg-white transition-all text-[10px] md:text-xs uppercase tracking-widest glow-orange w-full md:w-auto">
                             Inspect Protocol Logic
                         </button>
                     </div>

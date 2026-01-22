@@ -31,133 +31,133 @@ const Asset = () => {
     return (
         <div className="bg-[#0B0B0B] min-h-screen pb-32">
             {/* Tactical Header */}
-            <div className="bg-[#111111] border-b border-rail-orange/10 pt-16 pb-20 px-6 lg:px-20 relative overflow-hidden">
+            <div className="bg-[#111111] border-b border-rail-orange/10 pt-12 md:pt-16 pb-16 md:pb-20 px-4 md:px-6 lg:px-20 relative overflow-hidden">
                 <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #FF6A00 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
 
                 <div className="container mx-auto relative z-10">
-                    <Link to="/dashboard" className="text-rail-gray hover:text-rail-orange transition-all text-[10px] font-black uppercase tracking-[0.3em] mb-12 inline-flex items-center group">
-                        <svg className="w-3 h-3 mr-3 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                    <Link to="/dashboard" className="text-rail-gray hover:text-rail-orange transition-all text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] mb-8 md:mb-12 inline-flex items-center group">
+                        <svg className="w-3 h-3 mr-2 md:mr-3 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
                         Return to Command Center
                     </Link>
 
-                    <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-12 mt-8">
+                    <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-10 lg:gap-12 mt-6 md:mt-8">
                         <div>
-                            <div className="flex items-center space-x-4 mb-6">
-                                <span className="px-4 py-1.5 bg-rail-orange text-black rounded-sm text-[10px] font-black uppercase tracking-[0.2em]">{asset.type}</span>
-                                <span className="text-rail-gray font-black uppercase tracking-[0.3em] text-[10px]">PROTOCOL ID: {asset.id}</span>
+                            <div className="flex items-center space-x-3 md:space-x-4 mb-4 md:mb-6">
+                                <span className="px-3 md:px-4 py-1.5 bg-rail-orange text-black rounded-sm text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em]">{asset.type}</span>
+                                <span className="text-rail-gray font-black uppercase tracking-[0.3em] text-[9px] md:text-[10px]">PROTOCOL ID: {asset.id}</span>
                             </div>
-                            <h1 className="text-6xl md:text-8xl font-headline font-black text-white tracking-tighter leading-none">
+                            <h1 className="text-4xl md:text-8xl font-headline font-black text-white tracking-tighter leading-none uppercase">
                                 {asset.model} <span className="text-rail-orange">DIGITAL TWIN</span>
                             </h1>
-                            <p className="text-rail-gray font-bold uppercase tracking-widest text-xs mt-6 opacity-60">
-                                Zone: {asset.zone} Sector • Deployment: {new Date(asset.installDate).toLocaleDateString()} • Status: Nominal
+                            <p className="text-rail-gray font-bold uppercase tracking-widest text-[10px] md:text-xs mt-4 md:mt-6 opacity-60">
+                                Zone: {asset.zone} Sector • Status: Nominal
                             </p>
                         </div>
 
-                        <div className="flex items-center space-x-10 industrial-glass p-8 rounded-[2.5rem] border border-rail-orange/20 shadow-2xl">
+                        <div className="flex items-center space-x-6 md:space-x-10 industrial-glass p-6 md:p-8 rounded-[2rem] md:rounded-[2.5rem] border border-rail-orange/20 shadow-2xl self-start lg:self-auto">
                             <div className="text-right">
-                                <p className="text-rail-gray text-[9px] font-black uppercase tracking-[0.3em] mb-2 opacity-60">Aggregate health</p>
-                                <p className={`text-5xl font-headline font-black leading-none ${asset.health >= 80 ? 'text-white' : asset.health >= 50 ? 'text-rail-orange' : 'text-rose-500'}`}>{Math.round(asset.health)}%</p>
+                                <p className="text-rail-gray text-[8px] md:text-[9px] font-black uppercase tracking-[0.3em] mb-1 md:mb-2 opacity-60">Aggregate health</p>
+                                <p className={`text-4xl md:text-5xl font-headline font-black leading-none ${asset.health >= 80 ? 'text-white' : asset.health >= 50 ? 'text-rail-orange' : 'text-rose-500'}`}>{Math.round(asset.health)}%</p>
                             </div>
-                            <div className="glow-orange scale-125">
-                                <HealthGauge value={asset.health} size={90} strokeWidth={8} />
+                            <div className="glow-orange scale-90 md:scale-125">
+                                <HealthGauge value={asset.health} size={70} strokeWidth={6} />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="container mx-auto px-6 lg:px-20 -mt-12 grid lg:grid-cols-3 gap-10">
+            <div className="container mx-auto px-4 md:px-6 lg:px-20 -mt-8 md:-mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10">
                 {/* Live Telemetry Panel */}
-                <div className="industrial-glass p-10 rounded-[3rem] border border-white/5 flex flex-col shadow-2xl">
-                    <h3 className="text-[10px] font-black text-white mb-10 uppercase tracking-[0.4em] flex items-center">
+                <div className="industrial-glass p-8 md:p-10 rounded-[2rem] md:rounded-[3rem] border border-white/5 flex flex-col shadow-2xl">
+                    <h3 className="text-[9px] md:text-[10px] font-black text-white mb-8 md:mb-10 uppercase tracking-[0.4em] flex items-center">
                         <span className="w-2.5 h-2.5 bg-rail-orange rounded-full mr-3 animate-pulse shadow-[0_0_8px_#FF6A00]"></span>
                         Telemetry stream v1.0
                     </h3>
 
-                    <div className="space-y-6 flex-grow">
+                    <div className="space-y-4 md:space-y-6 flex-grow">
                         {[
                             { label: "Core Temperature", value: telemetry?.temperature, unit: "°C", critical: 75 },
                             { label: "Vibration Index", value: telemetry?.vibration, unit: "MM/S", critical: 12, precision: 2 },
                             ...(isLoco ? [{ label: "Velocity Delta", value: telemetry?.speed, unit: "KM/H" }] : [])
                         ].map((item, i) => (
-                            <div key={i} className="p-6 bg-white/5 rounded-2xl border border-white/5 hover:border-rail-orange/20 transition-all group">
+                            <div key={i} className="p-5 md:p-6 bg-white/5 rounded-2xl border border-white/5 hover:border-rail-orange/20 transition-all group">
                                 <div className="flex justify-between items-center">
-                                    <p className="text-[9px] font-black text-rail-gray uppercase tracking-widest">{item.label}</p>
-                                    <div className={`text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded ${item.value > item.critical ? 'bg-rose-500/10 text-rose-500' : 'bg-rail-orange/10 text-rail-orange'}`}>
+                                    <p className="text-[8px] md:text-[9px] font-black text-rail-gray uppercase tracking-widest">{item.label}</p>
+                                    <div className={`text-[8px] md:text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded ${item.value > item.critical ? 'bg-rose-500/10 text-rose-500' : 'bg-rail-orange/10 text-rail-orange'}`}>
                                         {item.value > item.critical ? 'ALERT' : 'NOMINAL'}
                                     </div>
                                 </div>
-                                <p className="text-4xl font-headline font-black text-white mt-2 tracking-tight group-hover:text-rail-orange transition-colors">
+                                <p className="text-3xl md:text-4xl font-headline font-black text-white mt-2 tracking-tight group-hover:text-rail-orange transition-colors">
                                     {item.value?.toFixed(item.precision || 1)} <span className="text-xs font-bold text-rail-gray/40 ml-1">{item.unit}</span>
                                 </p>
                             </div>
                         ))}
 
-                        <div className="p-6 bg-white/5 rounded-2xl border border-white/5 flex justify-between items-center transition-all hover:bg-white/10">
+                        <div className="p-5 md:p-6 bg-white/5 rounded-2xl border border-white/5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 transition-all hover:bg-white/10">
                             <div>
-                                <p className="text-[9px] font-black text-rail-gray uppercase tracking-widest mb-1">GPS Coordinates</p>
-                                <p className="text-xs font-black text-white uppercase tracking-widest">
+                                <p className="text-[8px] md:text-[9px] font-black text-rail-gray uppercase tracking-widest mb-1">GPS Coordinates</p>
+                                <p className="text-[11px] md:text-xs font-black text-white uppercase tracking-widest">
                                     {asset.gps.lat.toFixed(4)} N / {asset.gps.lng.toFixed(4)} E
                                 </p>
                             </div>
-                            <button className="text-[9px] text-rail-orange font-black uppercase tracking-[0.2em] hover:text-white transition-colors border-b border-rail-orange/30">View Node Map</button>
+                            <button className="text-[8px] md:text-[9px] text-rail-orange font-black uppercase tracking-[0.2em] hover:text-white transition-colors border-b border-rail-orange/30">View Node Map</button>
                         </div>
                     </div>
 
-                    <div className="mt-12 pt-8 border-t border-white/5 text-center">
-                        <p className="text-[9px] text-rail-gray/40 uppercase tracking-[0.5em] font-black">Encrypted via RailPulse Secure</p>
+                    <div className="mt-10 md:mt-12 pt-6 md:pt-8 border-t border-white/5 text-center">
+                        <p className="text-[8px] md:text-[9px] text-rail-gray/40 uppercase tracking-[0.5em] font-black">Encrypted via RailPulse Secure</p>
                     </div>
                 </div>
 
                 {/* Health Trend & Insights */}
-                <div className="lg:col-span-2 space-y-10">
-                    <div className="industrial-glass p-10 rounded-[3rem] border border-white/5 shadow-2xl">
-                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
+                <div className="lg:col-span-2 space-y-8 md:space-y-10">
+                    <div className="industrial-glass p-8 md:p-10 rounded-[2rem] md:rounded-[3rem] border border-white/5 shadow-2xl">
+                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 md:mb-10 gap-6">
                             <div>
-                                <h3 className="text-[10px] font-black text-white uppercase tracking-[0.4em]">Health Stability Index</h3>
-                                <p className="text-[9px] text-rail-gray font-bold uppercase mt-1">Calculated from 30-day rolling telemetry averages</p>
+                                <h3 className="text-[9px] md:text-[10px] font-black text-white uppercase tracking-[0.4em]">Health Stability Index</h3>
+                                <p className="text-[8px] md:text-[9px] text-rail-gray font-bold uppercase mt-1">Calculated from 30-day telemetry averages</p>
                             </div>
                             <div className="flex gap-2">
-                                <button className="px-5 py-2 bg-rail-orange text-black text-[9px] font-black rounded-full uppercase tracking-widest">30D History</button>
-                                <button className="px-5 py-2 bg-white/5 text-rail-gray text-[9px] font-black rounded-full uppercase tracking-widest hover:bg-white/10 transition-all">90D Archive</button>
+                                <button className="px-4 md:px-5 py-2 bg-rail-orange text-black text-[8px] md:text-[9px] font-black rounded-full uppercase tracking-widest">30D History</button>
+                                <button className="px-4 md:px-5 py-2 bg-white/5 text-rail-gray text-[8px] md:text-[9px] font-black rounded-full uppercase tracking-widest hover:bg-white/10 transition-all">90D Archive</button>
                             </div>
                         </div>
-                        <div className="h-72">
+                        <div className="h-60 md:h-72">
                             <ChartLine data={history} xKey="date" yKey="health" color="#FF6A00" />
                         </div>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-10">
-                        <div className="industrial-glass p-10 rounded-[3rem] border border-white/5 flex flex-col justify-center">
-                            <h3 className="text-[10px] font-black text-white uppercase tracking-[0.4em] mb-8">Neural Failure Predictor</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+                        <div className="industrial-glass p-8 md:p-10 rounded-[2rem] md:rounded-[3rem] border border-white/5 flex flex-col justify-center">
+                            <h3 className="text-[9px] md:text-[10px] font-black text-white uppercase tracking-[0.4em] mb-6 md:mb-8">Neural Failure Predictor</h3>
                             <div className="space-y-6">
                                 <div className="flex items-end justify-between">
-                                    <span className="text-[9px] text-rail-gray font-black uppercase tracking-widest">Probability Index</span>
-                                    <span className="text-4xl font-headline font-black text-white tracking-tighter">0.024%</span>
+                                    <span className="text-[8px] md:text-[9px] text-rail-gray font-black uppercase tracking-widest">Probability Index</span>
+                                    <span className="text-3xl md:text-4xl font-headline font-black text-white tracking-tighter">0.024%</span>
                                 </div>
                                 <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
                                     <div className="bg-rail-orange h-full w-[2.4%] shadow-[0_0_10px_#FF6A00]"></div>
                                 </div>
-                                <p className="text-[9px] text-rail-gray font-bold uppercase tracking-widest leading-relaxed opacity-60">
-                                    Action Status: <span className="text-emerald-400">Zero Maintenance Required</span><br />
+                                <p className="text-[8px] md:text-[9px] text-rail-gray font-bold uppercase tracking-widest leading-relaxed opacity-60">
+                                    Action Status: <span className="text-emerald-400">Nominal</span><br />
                                     Predicted Lifespan Extension: +14 Months based on current operating delta.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="bg-rail-orange p-10 rounded-[3rem] shadow-2xl text-black relative overflow-hidden group">
-                            <div className="absolute top-0 right-0 w-40 h-40 bg-white/20 rounded-full translate-x-10 -translate-y-10 blur-3xl"></div>
-                            <h3 className="text-[10px] font-black uppercase tracking-[0.4em] mb-4">Marketplace Insights</h3>
-                            <p className="text-sm font-bold uppercase tracking-tight mb-8 group-hover:translate-y-1 transition-transform">Insurers and OEMs access this Twin for Real-Time Risk Calibration.</p>
-                            <div className="bg-black/5 p-6 rounded-2xl border border-black/10">
-                                <p className="text-[9px] font-black uppercase opacity-60 mb-4 tracking-tighter">Current Data Tier: High Fidelity</p>
+                        <div className="bg-rail-orange p-8 md:p-10 rounded-[2rem] md:rounded-[3rem] shadow-2xl text-black relative overflow-hidden group">
+                            <div className="absolute top-0 right-0 w-32 md:w-40 h-32 md:h-40 bg-white/20 rounded-full translate-x-10 -translate-y-10 blur-3xl pointer-events-none"></div>
+                            <h3 className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] mb-4">Marketplace Insights</h3>
+                            <p className="text-xs md:text-sm font-bold uppercase tracking-tight mb-6 md:mb-8 group-hover:translate-y-1 transition-transform">Insurers and OEMs access this Twin for Real-Time Risk Calibration.</p>
+                            <div className="bg-black/5 p-5 md:p-6 rounded-2xl border border-black/10">
+                                <p className="text-[8px] md:text-[9px] font-black uppercase opacity-60 mb-4 tracking-tighter">Current Data Tier: High Fidelity</p>
                                 <div className="space-y-3">
-                                    <div className="flex justify-between items-center text-[9px] font-black uppercase tracking-widest">
+                                    <div className="flex justify-between items-center text-[8px] md:text-[9px] font-black uppercase tracking-widest">
                                         <span>OEM Connectivity</span>
                                         <span className="text-white bg-black px-2 py-0.5 rounded">Linked</span>
                                     </div>
-                                    <div className="flex justify-between items-center text-[9px] font-black uppercase tracking-widest">
+                                    <div className="flex justify-between items-center text-[8px] md:text-[9px] font-black uppercase tracking-widest">
                                         <span>Risk Evaluation</span>
                                         <span className="text-white bg-black px-2 py-0.5 rounded">Active</span>
                                     </div>
